@@ -1,0 +1,17 @@
+.ImageGroup {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.SingleImage {
+    height: 330px;
+}
+
+.PageTitle {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+.pageContainer {
+    flex: 1;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageHeader {
+    font-size: 10vw;
+    margin-bottom: 40vh;
+    text-decoration: underline;
+    font-weight: 400;
+}

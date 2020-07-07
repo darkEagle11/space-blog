@@ -1,0 +1,31 @@
+.BlogsContainer {
+    width: 90%;
+    max-width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 30px;
+}
+
+.PageTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.PostTitle {
+    font-weight: 400;
+}
+
+.Image {
+    height: 250px;
+}
+
+@media only screen and (min-width: 650px) {
+    .Image {
+        height: 200px;
+    }
+
+    .BlogsContainer {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        column-gap: 10px;
+    }
+}
