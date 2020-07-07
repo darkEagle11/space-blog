@@ -1,6 +1,5 @@
 .BlogsContainer {
     width: 90%;
-    max-width: 1050px;
     margin: 0 auto;
     display: grid;
     row-gap: 30px;
@@ -17,6 +16,7 @@
 
 .Image {
     height: 250px;
+    border-radius: 3px;
 }
 
 @media only screen and (min-width: 650px) {
@@ -25,7 +25,13 @@
     }
 
     .BlogsContainer {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         column-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .BlogsContainer {
+        max-width: 1050px;
     }
 }
